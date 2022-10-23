@@ -15,4 +15,5 @@ export default {
 const Template = () => <InboxScreen />;
 
 export const Default = Template.bind({});
+
 export const Error = Template.bind({});

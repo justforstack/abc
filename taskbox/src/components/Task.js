@@ -34,7 +34,7 @@ export default function Task({ task: { id, title, state }, onArchiveTask, onPinT
 
       {state !== "TASK_ARCHIVED" && (
         <button
-          className="pin-button"
+          className="pinned-button"
           onClick={() => onPinTask(id)}
           id={`pinTask-${id}`}
           aria-label={`pinTask-${id}`}
